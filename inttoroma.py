@@ -1,4 +1,3 @@
-import unittest
 def intToRoman(num):
     count = 0
     o =[]
@@ -8,7 +7,3 @@ def intToRoman(num):
             num = num - n
             o.append(d[n])
     return (''.join(o))
-
-if __name__ == '__main__':
-    unittest.main()
-    print(intToRoman(input("input an int")))
