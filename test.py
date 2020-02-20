@@ -19,4 +19,11 @@ def test():
     return False
   if inttoroma.intToRoman(3111) != 'MMMCXI':
     return False
+  if inttoroma.intToRoman("abc") != "not supported input":
+    return False
+  if inttoroma.intToRoman(2.2) != "not supported input":
+    return False
+  print("right")
   return True
+if __name__ == '__main__':
+  test()
