@@ -1,7 +1,7 @@
 import inttoroma
 import pytest
 
-def test():
+def test_romaint():
   assert inttoroma.intToRoman(1) == 'I'
   assert inttoroma.intToRoman(4) == 'IV'
   assert inttoroma.intToRoman(10) == 'X'
